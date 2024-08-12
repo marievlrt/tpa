@@ -12,13 +12,13 @@ header{
     padding-bottom: 25px;
 }
 h2{
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 35px;
-    margin: 40px 0 10px;
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-size: 25px;
     background-color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    outline: 5px solid white;
+    margin: 10px 90px;
+    border-radius: 10px;
+    padding: 10px;
 }
 header h1{
     color: white;
@@ -31,6 +31,10 @@ header img{
 }
 main{
     text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 a:hover{
     color: #95145b;
