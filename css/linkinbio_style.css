@@ -11,13 +11,13 @@ body{
 header{
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 70px;
 }
 
 header h1{
     color: white;
     font-family: "Calistoga", serif;
-    font-size: 75px;
+    font-size: 70px;
 }
 
 header img{
@@ -36,7 +36,7 @@ header img{
     color: white;
     font-size: 100px;
     text-decoration: none;
-    padding: 30px 0;
+    padding: 0 20px;
     /* transition: color 0.3s ease; */
 }
 
@@ -48,12 +48,12 @@ header img{
 
 h2{
     /* font-family: "Roboto Condensed", sans-serif; */
-    font-size: 50px;
+    font-size: 40px;
     background-color: white;
-    outline: 15px solid white;
+    /* outline: 15px solid white; */
     margin: 10px 90px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 40px;
 }
 
 main{
