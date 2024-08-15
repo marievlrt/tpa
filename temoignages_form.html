@@ -2,9 +2,32 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Temoignages</title>
+    <title>Témoignez !</title>
+    <link rel="icon" href="img/logo_tpa.png">
 </head>
 <body>
-    
+    <header>
+        <h1>Pour vous c'est quoi, la charge mentale ?</h1>
+        <p>Partagez votre vécu quotidien, une anecdote, vos "ras-le-bol" et vos victoires...<br>
+        En racontant votre histoire, vous inspirez et soutenez des milliers de femmes et contribuez à combattre les inégalités de genre dans tous les foyers.</p>
+    </header>
+    <main>
+        <form action="https://script.google.com/macros/s/AKfycbw6T61s_UoO274nMvWSX_bmsGienWsa2YMuq-whwskapC-8ZyJeShusbLsGYTGJM3yq5g/exec" method="POST">
+            <label for="temoignage">Votre témoignage* :</label><br>
+            <textarea id="temoignage" name="temoignage" required></textarea><br>
+            <!-- Name Input -->
+            <label for="nom">Votre prénom / pseudonyme (facultatif) :</label><br>
+            <input type="text" id="nom" name="nom">
+            <div>Vous pouvez, si vous le souhaitez, partager votre prénom, un pseudo, compte Instagram ou autre. Si nous publions votre témoignage, cette information sera publiée.</div><br>
+            <!-- Authorization Checkbox -->
+            <input type="checkbox" id="autorisation" name="autorisation" value="Oui" required>
+            <label for="autorisation">J'autorise <i><b>T'as pensé à ?</b></i> à utiliser les informations renseignées dans ce formulaire.*</label><br>
+            <!-- Submit Button -->
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <i>T'as pensé à ?</i> 2024</p>
+    </footer>
 </body>
 </html>
