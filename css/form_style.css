@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    /* background: linear-gradient(#95145b,#ed8dcd); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    /* line-height: 30px; */
+}
+
+/* Header styling: */
+
+header{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(#95145b,#ed8dcd);
+}
+
+header h1{
+    color: white;
+    font-family: "Calistoga", serif;
+    font-size: 50px;
+}
+
+/* Main styling: */
+
+main{
+    /* text-align: center; */
+    padding: 70px;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #f9f9f9; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    /* display: block; */
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+    /* color: #333; */
+}
+
+label.not-bold {
+    font-weight: normal; /* Override to make this label not bold */
+}
+
+input[type="text"],
+textarea {
+    width: 96.5%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between elements */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Specific styling for textarea */
+textarea {
+    height: 150px; /* Increase height for better text entry */
+    resize: vertical; /* Allow users to resize vertically */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label text */
+}
+
+button[type="submit"] {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+p.remark{
+    color: #cdcdcd;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Icon block styling: */
+
+.icon {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    /* padding: 0 15px; */
+}
+
+.icon:hover {
+    color: #95145b;
+}
+
+/* Footer styling: */
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ed8dcd;
+}
+
+footer p{
+    margin: 0;
+}
