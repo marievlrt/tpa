@@ -16,8 +16,10 @@ header{
 
 header h1{
     color: white;
-    font-family: "Calistoga", serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* Main styling: */
