@@ -11,7 +11,8 @@ body{
 header{
     text-align: center;
     padding: 50px;
-    background: linear-gradient(#95145b,#ed8dcd);
+    /* background: linear-gradient(#95145b,#ed8dcd); */
+    background-color: #ed8dcd;
 }
 
 header h1{
