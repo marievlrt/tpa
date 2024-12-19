@@ -52,6 +52,7 @@ label.not-bold {
 }
 
 input[type="text"],
+input[type="email"],
 textarea {
     width: 96.5%;
     padding: 10px;
